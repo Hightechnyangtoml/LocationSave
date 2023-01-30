@@ -2,5 +2,5 @@
 
 ## Command
 
-ls.cmd
-/ls help
+- ls.cmd
+- /ls help
