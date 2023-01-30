@@ -1,2 +1,6 @@
 # LocationSave
-Minecraft Plugin 1.12.2
+
+## Command
+
+ls.cmd
+/ls help
