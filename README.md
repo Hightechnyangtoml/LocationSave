@@ -2,5 +2,5 @@
 
 ## Command
 
-- ls.cmd
-- /ls help
+- Permission: ls.cmd
+- Help Message: /ls help
