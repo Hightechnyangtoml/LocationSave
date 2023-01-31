@@ -2,3 +2,6 @@ name: LocationSave
 version: '${project.version}'
 main: kr.cafemoca.locationsave.LocationSave
 authors: [ CafeMoca ]
+commands:
+  ls:
+    permission: ls.cmd

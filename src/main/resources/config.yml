@@ -1,0 +1,9 @@
+ls:
+  help: '&6LS Help: &f/ls help - Show command help message'
+  save:
+    success: '&6LS: &fLocation &a%s &fsaved successfully!'
+    locationerror: '&6LS: &fLocation must be an integer, not a decimal.'
+  list: '&6LS: &fSaved locations: &a%s'
+  warp:
+    success: '&6LS: &fTeleported to location &a%s'
+    notfound: '&6LS: &fLocation &c%s &fnot found.'
