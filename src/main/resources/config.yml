@@ -1,9 +1,15 @@
 ls:
-  help: '&6LS Help: &f/ls help - Show command help message'
-  save:
-    success: '&6LS: &fLocation &a%s &fsaved successfully!'
-    locationerror: '&6LS: &fLocation must be an integer, not a decimal.'
-  list: '&6LS: &fSaved locations: &a%s'
-  warp:
-    success: '&6LS: &fTeleported to location &a%s'
-    notfound: '&6LS: &fLocation &c%s &fnot found.'
+  message:
+    invalid-args: "&c틀린 인자가 포함되어 있습니다. /ls help로 명령어를 확인하세요."
+    invalid-location: "&c없는 위치입니다."
+    invalid-page: "&c없는 페이지 입니다. 1에서 {maxPage}의 숫자를 입력하여 주십시오."
+    save-success: "&a위치가 {name} 으로 저장되었습니다. &7({x}, {y}, {z})"
+    delete-success: "&a위치 {name} 이가 삭제되었습니다."
+    not-found: "&c위치 {name} 이가 존재하지 않습니다"
+    list-header: "&a저장된 위치 (Page &7{page}&a of &7{maxPage}&a):"
+    list-item: "&7- &a{name}: &7({x}, {y}, {z})"
+    warp-success: "&a{name} 으로 이동했습니다."
+    empty: "&a저장된 위치가 없습니다."
+    already-exists: "&c{name}은 이미 존재하는 위치입니다."
+    type-not-correct: "&c위치 좌표가 정수가 아닙니다."
+    only-player: "&c플레이어만 사용 가능합니다."
